@@ -1,0 +1,42 @@
+package com.struts.action;
+
+import java.util.Arrays;
+import java.util.Map;
+
+public class GreetAction extends ActionSupport implements SessionAware{
+	
+	private static final long serialVersionUID = 1L;
+	
+	private String name;
+	
+	private Map<String,Object> userSession;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String execute() throws Exception {
+		
+		// create a valuestack
+		
+		ValueStack stack = ActionContext.getContext().getValueStack();
+		
+		// create key value pairs
+		Map<String,Object> mapData = new HashMap<String,Object>();
+		mapData.put("message", "GreatDay");
+		mapData.put("fruits", Arrays.asList("apple","orange"));
+		
+		// add them to the valuestack
+		stack.push(mapData);
+		
+		System.out.println(stack.size());
+	}
+	
+	
+
+}

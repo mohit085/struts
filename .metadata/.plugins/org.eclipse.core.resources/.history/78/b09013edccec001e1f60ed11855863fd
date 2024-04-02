@@ -1,0 +1,23 @@
+package com.example.action;
+
+import java.util.List;
+
+import com.example.model.Student;
+
+public class StudentAction {
+	
+	private Student student;
+	
+	private List<String> hobbies;
+	
+	public StudentAction() {
+		
+	}
+	
+	// this will be called when user clicks submit button in form
+	public String execute() {
+		
+		return "success";
+	}
+
+}

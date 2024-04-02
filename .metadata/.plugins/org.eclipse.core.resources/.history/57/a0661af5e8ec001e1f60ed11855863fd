@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+          
+<action name="login" class="com.struts.action.EmployeeAction>
+</action>
+
+<action name="show" class="com.struts.action.GreetAction">
+	<result name="success">/empsuccess.jsp</result>
+</action>

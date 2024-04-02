@@ -1,0 +1,9 @@
+package com.struts.model;
+
+public class Employee {
+	
+	private String EmployeeName;
+	
+	private String EmployeeId;
+
+}

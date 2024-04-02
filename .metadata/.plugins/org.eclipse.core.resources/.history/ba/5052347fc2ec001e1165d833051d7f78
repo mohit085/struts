@@ -1,0 +1,18 @@
+package com.struts.action;
+
+import java.util.List;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.struts.model.Student;
+
+public class StudentAction extends ActionSupport{
+	
+	// create a student object to populate the values
+	
+	private Student student;
+	
+	// create a list to pre populate the values of the hobbies array
+	
+	private List<String> hobbies;
+
+}

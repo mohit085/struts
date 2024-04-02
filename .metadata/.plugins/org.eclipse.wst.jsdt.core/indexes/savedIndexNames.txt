@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\mohit.kumar1\trainning\StrutsDemos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+167687186.index
+2184632944.index
+3310382651.index
+3278127599.index
+137127367.index
+520615530.index
